@@ -73,6 +73,33 @@ dotnet run
 
 The MCP server will start with stdio transport, ready to receive MCP protocol messages.
 
+### Configuring in Cursor IDE
+
+To integrate the MCP server with Cursor IDE, add the following configuration to your MCP settings file (`~/.cursor/mcp.json` or `C:\Users\{Username}\.cursor\mcp.json`):
+
+```json
+{
+  "mcpServers": {
+    "mcpWinAuditServer": {
+      "command": "cmd",
+      "args": [
+        "/c",
+        "C:\\path\\to\\your\\McpProcessToolSample.exe"
+      ]
+    }
+  }
+}
+```
+
+**Configuration Steps:**
+1. Build the McpProcessToolSample project: `dotnet build -c Release`
+2. Note the output path of `McpProcessToolSample.exe`
+3. Update the path in the MCP configuration file
+4. Restart Cursor IDE to load the MCP server
+5. The VMware VIX tools will be available in Cursor's AI assistant
+
+> **Note**: Ensure the VIX DLL (`Vix64AllProductsDyn.dll`) is in the same directory as the executable or in your system PATH.
+
 ### Using VixBindings Library
 
 ```csharp
@@ -126,6 +153,18 @@ Lists all running processes in the guest VM.
 
 ### `CheckGuestConnection`
 Tests connectivity and authentication without maintaining a session.
+
+## Cursor IDE Integration
+
+Once configured in Cursor IDE, you can use natural language to interact with VMware VMs:
+
+**Example prompts:**
+- *"Connect to my Ubuntu VM and list all running processes"*
+- *"Execute 'df -h' command in the guest OS to check disk usage"*
+- *"Check if I can connect to the VM with these credentials"*
+- *"Run a system update command in the guest VM"*
+
+The AI assistant will automatically use the appropriate MCP tools based on your requests, handling VM connections, command execution, and result parsing.
 
 ## Configuration
 
