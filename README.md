@@ -178,6 +178,28 @@ Once configured in Cursor IDE, you can use natural language to interact with VMw
 
 The AI assistant will automatically use the appropriate MCP tools based on your requests, handling VM connections, command execution, and result parsing.
 
+## 📸 Usage Examples
+
+Here are real examples of the MCP server in action through Cursor IDE:
+
+### 1. Connecting to VM
+![Connect to VM](images/Connect%20to%20VM.png)
+*Example: Establishing connection to Ubuntu VM using natural language commands*
+
+### 2. Checking System Uptime
+![Check uptime](images/Check%20uptime.png)
+*Example: Executing uptime command to see how long the VM has been running*
+
+### 3. Checking User Privileges
+![Check Privs](images/Check%20Privs.png)
+*Example: Using id command to verify current user permissions in the guest OS*
+
+### 4. Monitoring Disk Usage
+![Check disk](images/Check%20disk.png)
+*Example: Running df -h command to check filesystem usage and available space*
+
+These screenshots demonstrate how seamlessly you can interact with VMware VMs through natural language in Cursor IDE, with the AI automatically selecting and executing the appropriate MCP tools.
+
 ## Configuration
 
 ### Project Dependencies

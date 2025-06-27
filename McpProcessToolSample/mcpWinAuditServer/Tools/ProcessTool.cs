@@ -224,7 +224,7 @@ public static class ProcessTool {
             string guestOutputPath = $"{guestTempPath}/cmd_output.txt";
             string hostOutputPath = $"{hostTempPath}/cmd_output_host.txt";
             CommandResult result = VixApiHelper.RunGuestCommandAndGetOutput (
-                                       _sessionVmHandle, s
+                                       _sessionVmHandle,
                                        command,
                                        guestOutputPath,
                                        hostOutputPath
