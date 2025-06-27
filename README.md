@@ -1,18 +1,28 @@
-# .NET Bindings for VMware VIX API and MCP Integration
+# 🖥️ .NET Bindings for VMware VIX API and MCP Integration
+
+[![.NET](https://img.shields.io/badge/.NET-9.0-512BD4?style=flat-square&logo=dotnet)](https://dotnet.microsoft.com/)
+[![VMware](https://img.shields.io/badge/VMware-VIX_API-607078?style=flat-square&logo=vmware)](https://www.vmware.com/)
+[![MCP](https://img.shields.io/badge/MCP-Server-FF6B35?style=flat-square&logo=protocol)](https://modelcontextprotocol.io/)
+[![License](https://img.shields.io/badge/License-VMware_SDK-blue?style=flat-square&logo=license)](https://www.vmware.com/)
+[![Platform](https://img.shields.io/badge/Platform-Windows_x64-0078D4?style=flat-square&logo=windows)](https://www.microsoft.com/windows/)
+
+> 🚀 **Powerful VMware virtual machine automation through AI-driven Model Context Protocol integration**
 
 This repository contains .NET bindings for the VMware VIX (Virtual Infrastructure eXtension) API and a Model Context Protocol (MCP) server implementation for VM management operations.
 
-## Projects
+## 📦 Projects
 
 ### 🔧 VixBindings
-A .NET 9.0 library providing comprehensive C# bindings for the VMware VIX API, enabling programmatic control of VMware virtual machines.
+> **VMware VIX API .NET Library**  
+> A comprehensive .NET 9.0 library providing C# bindings for the VMware VIX API, enabling programmatic control of VMware virtual machines.
 
-### 🚀 McpProcessToolSample  
-A .NET 9.0 console application implementing an MCP server that exposes VMware VIX operations as tools for AI assistants and automation workflows.
+### 🤖 McpProcessToolSample  
+> **Model Context Protocol Server**  
+> A .NET 9.0 console application implementing an MCP server that exposes VMware VIX operations as tools for AI assistants and automation workflows.
 
-## Features
+## ✨ Features
 
-### VixBindings Library
+### 🔧 VixBindings Library
 - **Complete VIX API Coverage**: Full P/Invoke declarations for VMware VIX API
 - **VM Lifecycle Management**: Power on/off, suspend, reset operations
 - **Guest OS Operations**: File transfer, command execution, process management
@@ -21,7 +31,7 @@ A .NET 9.0 console application implementing an MCP server that exposes VMware VI
 - **Error Handling**: Comprehensive error checking and reporting
 - **Helper Utilities**: Simplified command execution and file operations
 
-### MCP Server Implementation
+### 🤖 MCP Server Implementation
 - **Session Management**: Persistent VM connections for multiple operations
 - **Guest Command Execution**: Run commands in guest OS and retrieve output
 - **Process Monitoring**: List and manage processes in guest VMs
