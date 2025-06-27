@@ -258,6 +258,16 @@ Before using this code:
 ### Disclaimer
 This repository does not include VMware's proprietary VIX API components. Users must obtain these directly from VMware and comply with VMware's licensing terms. The authors of this repository are not responsible for any licensing violations or improper use of VMware's intellectual property.
 
+### Usage Through AI Assistants (Cursor IDE, etc.)
+Using this MCP server through AI assistants like Cursor IDE is compliant with VMware's SDK Agreement as long as:
+- The underlying purpose remains "creating software that communicates with VMware Software"
+- Users have properly licensed VMware products (Workstation Pro/Player, vSphere, etc.)
+- The VIX SDK components are obtained through official VMware channels
+- No reverse engineering or unauthorized modifications are performed
+- The AI assistant is simply automating legitimate VM management tasks
+
+This integration does not change the licensing requirements - users must still comply with all VMware SDK Agreement terms.
+
 ## Related Documentation
 
 - [VMware VIX API Documentation](https://docs.vmware.com/en/VMware-Workstation-Pro/index.html)
