@@ -180,25 +180,14 @@ The AI assistant will automatically use the appropriate MCP tools based on your 
 
 ## 📸 Usage Examples
 
-Here are real examples of the MCP server in action through Cursor IDE:
+See real-world examples of the MCP server in action: **[View Examples →](EXAMPLES.md)**
 
-### 1. Connecting to VM
-![Connect to VM](images/Connect%20to%20VM.png)
-*Example: Establishing connection to Ubuntu VM using natural language commands*
-
-### 2. Checking System Uptime
-![Check uptime](images/Check%20uptime.png)
-*Example: Executing uptime command to see how long the VM has been running*
-
-### 3. Checking User Privileges
-![Check Privs](images/Check%20Privs.png)
-*Example: Using id command to verify current user permissions in the guest OS*
-
-### 4. Monitoring Disk Usage
-![Check disk](images/Check%20disk.png)
-*Example: Running df -h command to check filesystem usage and available space*
-
-These screenshots demonstrate how seamlessly you can interact with VMware VMs through natural language in Cursor IDE, with the AI automatically selecting and executing the appropriate MCP tools.
+The examples showcase:
+- 🔗 VM connection through natural language
+- ⏱️ System monitoring commands  
+- 👤 User privilege checking
+- 💾 Disk usage analysis
+- 🤖 AI-driven automation workflow
 
 ## Configuration
 
@@ -310,6 +299,7 @@ This integration does not change the licensing requirements - users must still c
 
 ## Related Documentation
 
+- [Usage Examples with Screenshots](EXAMPLES.md) - Real-world demonstrations
 - [VMware VIX API Documentation](https://docs.vmware.com/en/VMware-Workstation-Pro/index.html)
 - [Model Context Protocol Specification](https://modelcontextprotocol.io/)
 - [.NET 9.0 Documentation](https://docs.microsoft.com/en-us/dotnet/)
