@@ -8,6 +8,8 @@
 
 > 🚀 **Powerful VMware virtual machine automation through AI-driven Model Context Protocol integration**
 
+**Keywords:** `VMware VIX` • `Model Context Protocol` • `.NET 9.0` • `AI Automation` • `Virtual Machine Management` • `Cursor IDE` • `C# Bindings`
+
 This repository contains .NET bindings for the VMware VIX (Virtual Infrastructure eXtension) API and a Model Context Protocol (MCP) server implementation for VM management operations.
 
 ## 📦 Projects
@@ -277,6 +279,12 @@ Using this MCP server through AI assistants like Cursor IDE is compliant with VM
 - The AI assistant is simply automating legitimate VM management tasks
 
 This integration does not change the licensing requirements - users must still comply with all VMware SDK Agreement terms.
+
+---
+
+## 🏷️ Tags
+
+`#VMware` `#VIX` `#DotNet` `#CSharp` `#ModelContextProtocol` `#MCP` `#AI` `#Automation` `#VirtualMachine` `#VMAutomation` `#AIAssistant` `#CursorIDE` `#DevTools` `#Virtualization` `#WindowsDevelopment` `#SDK` `#API` `#CloudComputing` `#Infrastructure` `#DevOps`
 
 ## Related Documentation
 
