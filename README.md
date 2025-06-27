@@ -37,10 +37,14 @@ A .NET 9.0 console application implementing an MCP server that exposes VMware VI
 - VMware VIX API (Vix64AllProductsDyn.dll)
 
 ### VMware Setup
-1. Install VMware Workstation Pro/Player or connect to vSphere
-2. Ensure target VMs have VMware Tools installed
-3. Configure guest OS with appropriate user accounts
-4. Place `Vix64AllProductsDyn.dll` in the application directory
+1. **Download and install VMware VIX API SDK** from VMware's official website
+2. **Accept the VMware SDK Agreement** during SDK installation
+3. Install VMware Workstation Pro/Player or connect to vSphere
+4. Ensure target VMs have VMware Tools installed
+5. Configure guest OS with appropriate user accounts
+6. Copy `Vix64AllProductsDyn.dll` from the VIX SDK to the application directory
+
+> **Note**: The VIX DLL is not included in this repository and must be obtained from VMware's official SDK distribution.
 
 ## Quick Start
 
@@ -140,9 +144,10 @@ Tests connectivity and authentication without maintaining a session.
 ```
 
 ### Runtime Requirements
-- Ensure `Vix64AllProductsDyn.dll` is accessible to the application
-- Configure appropriate temporary directories for file operations
+- Obtain `Vix64AllProductsDyn.dll` from the official VMware VIX SDK and place it in the application directory
+- Configure appropriate temporary directories for file operations  
 - Set up guest OS user accounts with necessary permissions
+- Ensure compliance with VMware SDK Agreement terms
 
 ## Error Handling
 
@@ -188,7 +193,31 @@ The library provides comprehensive error handling through:
 
 ## License
 
-This project is provided as-is for educational and development purposes. Please ensure compliance with VMware licensing terms when using VIX API.
+### Project Code
+The .NET bindings and MCP server implementation in this repository are provided as-is for educational and development purposes.
+
+### VMware VIX API License
+**IMPORTANT**: This project uses the VMware VIX API, which is subject to the VMware Software Developer Kit (SDK) Agreement. Key points:
+
+- The VIX API SDK is provided "AS IS" without warranties
+- You may use it to create software that communicates with VMware products
+- Redistributable Code must be distributed in object code form only
+- You cannot reverse engineer or create derivative works of the Redistributable Code
+- VMware retains all intellectual property rights to the SDK
+- No VMware support is provided for SDK usage
+- You cannot represent your software as certified by VMware
+- VMware trademarks cannot be used without permission
+
+### Compliance Requirements
+Before using this code:
+1. **Download the official VIX API SDK** from VMware's website
+2. **Review and accept** the complete VMware SDK Agreement
+3. **Ensure you have** the proper `Vix64AllProductsDyn.dll` from the official SDK
+4. **Comply with all** redistribution and usage restrictions
+5. **Do not redistribute** the VMware SDK components separately
+
+### Disclaimer
+This repository does not include VMware's proprietary VIX API components. Users must obtain these directly from VMware and comply with VMware's licensing terms. The authors of this repository are not responsible for any licensing violations or improper use of VMware's intellectual property.
 
 ## Related Documentation
 
