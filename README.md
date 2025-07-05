@@ -5,7 +5,7 @@
 [![MCP](https://img.shields.io/badge/MCP-Server-FF6B35?style=flat-square&logo=protocol)](https://modelcontextprotocol.io/)
 [![License](https://img.shields.io/badge/License-VMware_SDK-blue?style=flat-square&logo=license)](https://www.vmware.com/)
 [![Platform](https://img.shields.io/badge/Platform-Windows_x64-0078D4?style=flat-square&logo=windows)](https://www.microsoft.com/windows/)
-[![Automated by 🤖](https://a.b-b.top/badge.svg?repo=VixMCP.Ai.Bridge&label=Automated%20by%20🤖&background_color=673ab7&background_color2=9575cd&utm_source=github&utm_medium=readme&utm_campaign=badge)](https://a.b-b.top)
+[![Automated by 🤖](https://a.b-b.top/badge.svg?repo=VixMCP.Ai.Bridge&label=Automated&background_color=673ab7&background_color2=9575cd&utm_source=github&utm_medium=readme&utm_campaign=badge)](https://a.b-b.top)
 
 > 🚀 **Powerful VMware virtual machine automation through AI-driven Model Context Protocol integration**
 
